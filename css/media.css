@@ -1,0 +1,296 @@
+@media screen and (min-width: 740px) {
+	.header-inner {
+		display: flex;
+		align-items: center;
+	}
+
+	.header-links {
+		margin-top: 0;
+		margin-left: 24px;
+	}
+
+	.block-reviews {
+		max-width: 1167px;
+		margin: 13.55% auto 136px auto;
+		padding: 0 20px;
+	}
+
+	.boxes-reviews {
+		justify-content: space-between;
+	}
+
+	.box-reviews {
+		width: 47%;
+		padding: 31px 6px 8px 12px;
+	}
+
+	.block-txt-reviews {
+		padding: 0;
+		max-width: 750px;
+		margin-bottom: 77px;
+	}
+
+	.reviews-bottom {
+		font-size: 17px;
+	}
+
+	.block-trigger {
+		width: 96%;
+		max-width: 1160px;
+	}
+
+	.block-footer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	.block-times {
+		display: flex;
+		align-items: center;
+	}
+
+	.title-time {
+		display: block;
+	}
+
+	.txt-time {
+		background: transparent;
+		padding-left: 27px;
+	}
+
+	.calls {
+		order: 1;
+	}
+
+	.txt-footer {
+		margin: 9px 0 0;
+		font-size: 20px;
+		line-height: 23px;
+	}
+}
+
+
+@media screen and (min-width: 820px) {
+	.block-about {
+		display: flex;
+	}
+
+	.about-col {
+		flex-basis: 50%;
+		padding: 80px 0 131px;
+	}
+
+	.about-img {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.about-col:last-child {
+		background: url('../img/star-bg-about.png') no-repeat 0 0;
+		background-size: auto 90%;
+		display: flex;
+	}
+
+	.about-col-info {
+		max-width: 680px;
+		padding: 0 20px 0 90px;
+		margin: auto 0;
+	}
+
+	.about-col-info {
+		position: static;
+		transform: translate(0, 0);
+		color: #000;
+		text-align: left;
+		width: 100%;
+		padding-left: 50px;
+	}
+
+	.title-about {
+		font-weight: 500;
+		font-size: 20px;
+		color: #000;
+		line-height: 20px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.header-calls {
+		background: transparent;
+		color: #fff;
+		padding: 0;	
+		position: static;		
+		transform: translate(0,0);
+		width: auto;	
+		margin-left: auto;	
+	}
+
+	.header-calls .phone {
+		background-image: url(../img/ic-phone-white.svg);
+		padding-left: 34px;
+	}
+
+	.txt-gradient, .btn .txt-gradient {
+		-webkit-text-fill-color: #fff;
+	}
+
+	.header-calls .btn {
+		border-color: #fff;
+		background: transparent;
+		color: #fff;
+	}
+
+	.btn::before {
+		content: none;
+	}
+
+	.btn:hover {
+		box-shadow: inset 0 0 0 3px #fff;
+	}
+
+	.btn:active {
+		box-shadow: inset 0 0 0 0 #fff;
+	}
+
+	.btn2 {
+		box-shadow: 2px 8px 30px #00BB34;
+	}
+
+	.btn2:hover {
+		box-shadow: 1px 3px 10px #00BB34;
+	}
+
+	.btn2:active {
+		background: #00a12e;
+	}
+	
+	.header-links {	
+		margin-left: 84px;
+	}
+
+	.header-links a {
+		margin-right: 5px;
+	}
+
+	.main-block ul {
+		margin-left: 10px;
+		margin-bottom: 34px;
+	}
+
+	.main-title {
+		margin: 0 0 36px;
+	}
+
+	.btn-nav{
+		display: none;
+	}
+
+	.main-nav{
+		background: #fff;
+		color: #000;
+		padding: 22px 0;
+		border-radius: 0px 0px 20px 20px;
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		transform: translate(-50%, 100%);
+		width: 96%;
+		max-width: 1170px;
+	}
+
+	.main-nav ul{
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.main-nav a:hover{
+		text-decoration: underline;
+	}
+
+	.nav-hidden{
+		height: auto;
+	}
+
+	.main-block {
+		background: url(../img/main-photo-big.png) right bottom no-repeat,
+		url(../img/bg-big.png) left bottom 63px no-repeat;
+		background-size: 85%, 100% calc(100% - 63px);
+		padding: 180px 0 30.5%;
+		color: #fff;
+		margin-bottom: 22px;
+	}
+
+	.box-trigger {
+		width: 23%;
+		padding: 56px 23px 62px 13px;
+		margin-bottom: 0;
+	}
+
+	.box-trigger p {
+		margin: 28px 0 0;
+	}
+
+	.block-about {
+		margin-top: 206px;
+	}
+
+	.title-about {
+		font-weight: 500;
+		font-size: 28px;
+		color: #000;
+		line-height: 34px;
+		margin-bottom: 37px;
+	}
+
+	.about-col:last-child {
+		background-size: auto 100%;
+	}
+
+	.about-col-info {
+		padding-left: 90px;
+	}
+
+	.about-col-info p {
+		font-size: 15px;
+		line-height: 119.69%;
+		margin-bottom: 30px;
+		font-weight: 500;
+	}
+
+	.about-col-info .btn2 {
+		color: #fff;
+	}
+
+	.block-reviews {
+		padding: 80px 0 0;
+	}
+
+	.boxes-reviews {
+		justify-content: space-between;
+	}
+
+	.box-reviews {
+		width: 32%;
+		padding: 31px 29px 31px 25px;
+		margin-bottom: 0;
+	}
+
+	.reviews-bottom {
+		font-size: 20px;
+		margin: 24px 0 0;
+	}
+
+	.block-footer .calls .phone {
+		margin-right: 4px;
+		font-weight: 400;
+	}
+}
+
+@media screen and (min-width: 1360px) {
+	.main-block {
+		padding: 247px 0 415px;
+		background-size: auto, 100% calc(100% - 63px);
+	}	
+}
